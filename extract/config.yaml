@@ -1,0 +1,14 @@
+#Se genera un mapa de mapas y las propiedades que se encuentran dentro del mapa inicial seran las que vamos a utilizar
+news_sites:
+  revistaanfibia:
+    url: http://revistaanfibia.com/ 
+    queries: 
+      homapage_article_links: '.titulo a'
+      article_body: '.copete h3'
+      article_title: '.titulo a h1'
+  eluniversal:
+    url: https://www.eluniversal.com.mx
+    queries:
+      homapage_article_links: '.field-content a'
+      article_body: '.field-name-body'
+      article_title: '.pane-content h1'
